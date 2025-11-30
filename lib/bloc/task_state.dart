@@ -18,7 +18,6 @@ class TaskState extends Equatable {
   });
 
   List<Task> get filteredTasks {
-    print(tasks);
     switch (filter) {
       case TaskFilter.completed:
         return tasks.where((task) => task.isDone && !task.isDeleted).toList();

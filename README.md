@@ -7,7 +7,7 @@ A minimalist, beautiful, and Bloc-powered Flutter application for managing tasks
 - **State Management**: Uses `flutter_bloc` for predictable state management.
 - **Data Models**: robust models using `freezed` and `json_serializable`.
 - **Persistence**: Saves tasks locally using `shared_preferences`.
-- **Filtering**: Filter tasks by All, Completed, or Pending.
+- **Filtering**: Filter tasks by All, Completed, Pending or Deleted.
 - **UI**: Modern Material 3 design.
 
 ## Setup & Run
