@@ -10,6 +10,43 @@ A minimalist, beautiful, and Bloc-powered Flutter application for managing tasks
 - **Filtering**: Filter tasks by All, Completed, Pending or Deleted.
 - **UI**: Modern Material 3 design.
 
+## Screenshots
+
+### All Tasks
+![All Tasks](assets/all-tasks.png)
+
+### Done Tasks
+![Done Tasks](assets/done-tasks.png)
+
+### Pending Tasks
+![Pending Tasks](assets/pending-tasks.png)
+
+### Deleted Tasks
+![Deleted Tasks](assets/deleted-tasks.png)
+
+## Folder Structure
+```
+.
+├── android # Android specific files
+├── assets # Static assets like images
+├── build # Build output
+├── ios # iOS specific files
+├── lib # Main Dart code
+│   ├── bloc # Business Logic Components (BLoCs)
+│   ├── main.dart # App entry point
+│   ├── models # Data models
+│   ├── services # Data persistence services
+│   ├── theme # App theme data
+│   └── ui
+│       ├── screens # App screens
+│       └── widgets # Reusable UI widgets
+├── test # App tests
+├── .gitignore # Git ignore file
+├── analysis_options.yaml # Dart analyzer options
+├── pubspec.lock # Locked dependencies
+└── pubspec.yaml # App dependencies and configuration
+```
+
 ## Setup & Run
 
 1.  **Install Dependencies**
@@ -27,12 +64,3 @@ A minimalist, beautiful, and Bloc-powered Flutter application for managing tasks
     ```bash
     flutter run
     ```
-
-## Project Structure
-
-- `lib/bloc`: Contains Business Logic Components (Blocs).
-- `lib/models`: Data models (Freezed).
-- `lib/services`: Data storage services.
-- `lib/ui`: UI components (Screens and Widgets).
-- `lib/theme`: App theming.
-
